@@ -9,7 +9,7 @@ import ZSlanding from '../assets/project/ZSlanding.jpeg'
 
 const Work = () => {
   return (
-    <div name='work'id='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work'id='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f] pt-40'>
        <div className='max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full'>
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
@@ -18,7 +18,7 @@ const Work = () => {
         {/*Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"> 
         {/* Grid Items */}
-            <div style={{backgroundImage: `url(${ZMLanding})`}}className='shadow-lg shadow-[#040c16] group container rounded-md 
+            <div style={{backgroundImage: `url(${ZMLanding})`}}className='shadow-lg  group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div '>
                {/* Hover effect */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -37,7 +37,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${TaskMNG})`}} className='shadow-lg shadow-[#040c16] group container rounded-md 
+            <div style={{backgroundImage: `url(${TaskMNG})`}} className='shadow-lg  group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div '>
                {/* Hover effect */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -58,7 +58,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${Myntra})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${Myntra})`}} className='shadow-lg  group container rounded-md flex justify-center items-center mx-auto content-div'>
                {/* Hover effect */}
                 <div className='opacity-0 group-hover:opacity-100 text-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
@@ -76,7 +76,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${Book})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${Book})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
                {/* Hover effect */}
                 <div className='opacity-0 group-hover:opacity-100 text-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
@@ -94,7 +94,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${Our})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${Our})`}} className='shadow-lg  group container rounded-md flex justify-center items-center mx-auto content-div'>
                {/* Hover effect */}
                 <div className='opacity-0 group-hover:opacity-100 text-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
@@ -112,7 +112,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${ZSlanding})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${ZSlanding})`}} className='shadow-lg  group container rounded-md flex justify-center items-center mx-auto content-div'>
                {/* Hover effect */}
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
